@@ -37,3 +37,6 @@ D:\GameShowControls\obj\Debug\GameShowControls.DoiChoi.resources
 D:\GameShowControls\obj\Debug\GameShowControls.VongThi.resources
 D:\GameShowControls\obj\Debug\GameShowControls.QuanLyTaiKhoan.resources
 D:\GameShowControls\obj\Debug\GameShowControls.CacCuocThi.resources
+D:\Capstone\Git\GSC-Capstone\bin\Debug\GameShowControls.exe.config
+D:\Capstone\Git\GSC-Capstone\obj\Debug\GameShowControls.exe
+D:\Capstone\Git\GSC-Capstone\obj\Debug\GameShowControls.pdb
