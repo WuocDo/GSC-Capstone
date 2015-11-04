@@ -141,15 +141,13 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox2.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox2.Controls.Add(this.button2);
             this.groupBox2.Controls.Add(this.dataGridView1);
-            this.groupBox2.Controls.Add(this.button3);
             this.groupBox2.Controls.Add(this.button1);
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.textBox1);
             this.groupBox2.Location = new System.Drawing.Point(14, 95);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(754, 465);
+            this.groupBox2.Size = new System.Drawing.Size(754, 395);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             // 
@@ -161,7 +159,7 @@
             this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.button2.ImageIndex = 2;
             this.button2.ImageList = this.imageList1;
-            this.button2.Location = new System.Drawing.Point(551, 412);
+            this.button2.Location = new System.Drawing.Point(565, 510);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(90, 40);
             this.button2.TabIndex = 33;
@@ -178,7 +176,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(16, 63);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(721, 328);
+            this.dataGridView1.Size = new System.Drawing.Size(721, 326);
             this.dataGridView1.TabIndex = 4;
             // 
             // button3
@@ -189,7 +187,7 @@
             this.button3.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.button3.ImageIndex = 1;
             this.button3.ImageList = this.imageList1;
-            this.button3.Location = new System.Drawing.Point(647, 412);
+            this.button3.Location = new System.Drawing.Point(661, 510);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(90, 40);
             this.button3.TabIndex = 32;
@@ -238,9 +236,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Transparent;
+            this.BackColor = System.Drawing.SystemColors.Desktop;
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.button3);
             this.Name = "Import";
             this.Size = new System.Drawing.Size(780, 580);
             this.Load += new System.EventHandler(this.Import_Load);

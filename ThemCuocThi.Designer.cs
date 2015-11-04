@@ -55,7 +55,7 @@
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.BackColor = System.Drawing.SystemColors.Desktop;
             this.panel1.Location = new System.Drawing.Point(32, 65);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(748, 446);
@@ -125,7 +125,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::GameShowControls.Properties.Resources.KhungPanner4;
+            this.BackColor = System.Drawing.SystemColors.Desktop;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(792, 573);
             this.Controls.Add(this.btnLuuLai);
@@ -135,6 +135,7 @@
             this.Controls.Add(this.label1);
             this.DoubleBuffered = true;
             this.Name = "ThemCuocThi";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ThemCuocThi";
             this.Load += new System.EventHandler(this.ThemCuocThi_Load);
             this.ResumeLayout(false);
