@@ -9,6 +9,7 @@ namespace GameShowControls
     static class Program
     {
         //author: antang 123456
+        //class: k17
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
