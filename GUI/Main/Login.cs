@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -12,6 +13,7 @@ namespace GameShowControls
 {
     public partial class Login : Form
     {
+        Thread Thread;
         public Login()
         {
             InitializeComponent();
@@ -34,8 +36,16 @@ namespace GameShowControls
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            GuiMenu gm = new GuiMenu();
-            gm.Show();
+            //GuiMenu GuiMenu = new GuiMenu();
+            //GuiMenu.ShowDialog();
+            this.Close();
+            Thread = new Thread(Open_GuiMenu);
+            Thread.SetApartmentState(ApartmentState.STA);
+            Thread.Start();
+        }
+        private void Open_GuiMenu()
+        {
+            Application.Run(new GuiMenu());
         }
     }
 }

@@ -14,18 +14,18 @@ namespace GameShowControls
     {
         menu UcMenu = new menu();
         setting UcSeting = new setting();
-        BatDau Ucbd = new BatDau();
+        BatDau UcStart = new BatDau();
         huongDan Uchd = new huongDan();
         Login Uclg = new Login();
         public GuiMenu()
         {
             InitializeComponent();
-            this.UcMenu.pictureBox3.Click += new EventHandler(pictureBox3_onClick);
+            this.UcMenu.pb_Setting.Click += new EventHandler(pictureBox3_onClick);
             this.UcSeting.pictureBox3.Click += new EventHandler(thoat_onClick);
-            this.UcMenu.pictureBox2.Click += new EventHandler(batDau_onClick);
-            this.UcMenu.pictureBox4.Click += new EventHandler(huongDan_onClick);
-            this.UcMenu.pictureBox5.Click += new EventHandler(thoatMenu_onClick);
-            this.Ucbd.button1.Click += new EventHandler(thoatBatDau_onClick);
+            this.UcMenu.pb_Start.Click += new EventHandler(batDau_onClick);
+            this.UcMenu.pb_Help.Click += new EventHandler(huongDan_onClick);
+            this.UcMenu.pb_Exit.Click += new EventHandler(thoatMenu_onClick);
+            this.UcStart.button1.Click += new EventHandler(thoatBatDau_onClick);
 
         }
 
@@ -47,7 +47,7 @@ namespace GameShowControls
         void batDau_onClick(object sender, EventArgs e)
         {
             this.Controls.Clear();
-            this.Controls.Add(Ucbd);
+            this.Controls.Add(UcStart);
         }
         void huongDan_onClick(object sender, EventArgs e)
         {

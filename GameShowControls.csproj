@@ -60,235 +60,239 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BatDau.cs">
+    <Compile Include="BL\CatalogueBL.cs" />
+    <Compile Include="DA\DataAccess.cs" />
+    <Compile Include="DO\CatalogueDO.cs" />
+    <Compile Include="DO\QuestionDO.cs" />
+    <Compile Include="GUI\Main\BatDau.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="BatDau.Designer.cs">
+    <Compile Include="GUI\Main\BatDau.Designer.cs">
       <DependentUpon>BatDau.cs</DependentUpon>
     </Compile>
-    <Compile Include="CacCuocThi.cs">
+    <Compile Include="GUI\Other\CacCuocThi.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="CacCuocThi.Designer.cs">
+    <Compile Include="GUI\Other\CacCuocThi.Designer.cs">
       <DependentUpon>CacCuocThi.cs</DependentUpon>
     </Compile>
-    <Compile Include="CauHoi-Import.cs">
+    <Compile Include="GUI\Question\CauHoi-Import.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CauHoi-Import.Designer.cs">
+    <Compile Include="GUI\Question\CauHoi-Import.Designer.cs">
       <DependentUpon>CauHoi-Import.cs</DependentUpon>
     </Compile>
-    <Compile Include="CauHoi-TaoCauHoi.cs">
+    <Compile Include="GUI\Question\CauHoi-TaoCauHoi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CauHoi-TaoCauHoi.Designer.cs">
+    <Compile Include="GUI\Question\CauHoi-TaoCauHoi.Designer.cs">
       <DependentUpon>CauHoi-TaoCauHoi.cs</DependentUpon>
     </Compile>
-    <Compile Include="ChuDe-TaoChuDe.cs">
+    <Compile Include="GUI\Catalogue\ChuDe-TaoChuDe.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ChuDe-TaoChuDe.Designer.cs">
+    <Compile Include="GUI\Catalogue\ChuDe-TaoChuDe.Designer.cs">
       <DependentUpon>ChuDe-TaoChuDe.cs</DependentUpon>
     </Compile>
-    <Compile Include="DapAnTuyChonMot.cs">
+    <Compile Include="GUI\Catalogue\DapAnTuyChonMot.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="DapAnTuyChonMot.Designer.cs">
+    <Compile Include="GUI\Catalogue\DapAnTuyChonMot.Designer.cs">
       <DependentUpon>DapAnTuyChonMot.cs</DependentUpon>
     </Compile>
-    <Compile Include="DapAnTuyChonNhieu.cs">
+    <Compile Include="GUI\Catalogue\DapAnTuyChonNhieu.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="DapAnTuyChonNhieu.Designer.cs">
+    <Compile Include="GUI\Catalogue\DapAnTuyChonNhieu.Designer.cs">
       <DependentUpon>DapAnTuyChonNhieu.cs</DependentUpon>
     </Compile>
-    <Compile Include="DoiChoi.cs">
+    <Compile Include="GUI\Other\DoiChoi.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="DoiChoi.Designer.cs">
+    <Compile Include="GUI\Other\DoiChoi.Designer.cs">
       <DependentUpon>DoiChoi.cs</DependentUpon>
     </Compile>
-    <Compile Include="GuiMenu.cs">
+    <Compile Include="GUI\Main\GuiMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GuiMenu.Designer.cs">
+    <Compile Include="GUI\Main\GuiMenu.Designer.cs">
       <DependentUpon>GuiMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="huongDan.cs">
+    <Compile Include="GUI\Main\huongDan.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="huongDan.Designer.cs">
+    <Compile Include="GUI\Main\huongDan.Designer.cs">
       <DependentUpon>huongDan.cs</DependentUpon>
     </Compile>
-    <Compile Include="Import.cs">
+    <Compile Include="GUI\Catalogue\Import.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Import.Designer.cs">
+    <Compile Include="GUI\Catalogue\Import.Designer.cs">
       <DependentUpon>Import.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login.cs">
+    <Compile Include="GUI\Main\Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login.Designer.cs">
+    <Compile Include="GUI\Main\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="menu.cs">
+    <Compile Include="GUI\Main\menu.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="menu.Designer.cs">
+    <Compile Include="GUI\Main\menu.Designer.cs">
       <DependentUpon>menu.cs</DependentUpon>
     </Compile>
-    <Compile Include="NhapCauHoiTuNganHangCauHoi.cs">
+    <Compile Include="GUI\Catalogue\NhapCauHoiTuNganHangCauHoi.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="NhapCauHoiTuNganHangCauHoi.Designer.cs">
+    <Compile Include="GUI\Catalogue\NhapCauHoiTuNganHangCauHoi.Designer.cs">
       <DependentUpon>NhapCauHoiTuNganHangCauHoi.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QuanLyDuLieu.cs">
+    <Compile Include="GUI\Catalogue\QuanLyDuLieu.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="QuanLyDuLieu.Designer.cs">
+    <Compile Include="GUI\Catalogue\QuanLyDuLieu.Designer.cs">
       <DependentUpon>QuanLyDuLieu.cs</DependentUpon>
     </Compile>
-    <Compile Include="QuanLyTaiKhoan.cs">
+    <Compile Include="GUI\Other\QuanLyTaiKhoan.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="QuanLyTaiKhoan.Designer.cs">
+    <Compile Include="GUI\Other\QuanLyTaiKhoan.Designer.cs">
       <DependentUpon>QuanLyTaiKhoan.cs</DependentUpon>
     </Compile>
-    <Compile Include="setting.cs">
+    <Compile Include="GUI\Main\setting.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="setting.Designer.cs">
+    <Compile Include="GUI\Main\setting.Designer.cs">
       <DependentUpon>setting.cs</DependentUpon>
     </Compile>
-    <Compile Include="TaoCauHoi.cs">
+    <Compile Include="GUI\Catalogue\TaoCauHoi.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="TaoCauHoi.Designer.cs">
+    <Compile Include="GUI\Catalogue\TaoCauHoi.Designer.cs">
       <DependentUpon>TaoCauHoi.cs</DependentUpon>
     </Compile>
-    <Compile Include="TaoCauHoiChuDe.cs">
+    <Compile Include="GUI\Catalogue\TaoCauHoiChuDe.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TaoCauHoiChuDe.Designer.cs">
+    <Compile Include="GUI\Catalogue\TaoCauHoiChuDe.Designer.cs">
       <DependentUpon>TaoCauHoiChuDe.cs</DependentUpon>
     </Compile>
-    <Compile Include="ThemCuocThi.cs">
+    <Compile Include="GUI\Other\ThemCuocThi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ThemCuocThi.Designer.cs">
+    <Compile Include="GUI\Other\ThemCuocThi.Designer.cs">
       <DependentUpon>ThemCuocThi.cs</DependentUpon>
     </Compile>
-    <Compile Include="ThietLapChung.cs">
+    <Compile Include="GUI\Other\ThietLapChung.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ThietLapChung.Designer.cs">
+    <Compile Include="GUI\Other\ThietLapChung.Designer.cs">
       <DependentUpon>ThietLapChung.cs</DependentUpon>
     </Compile>
-    <Compile Include="ThietLapDoiThi.cs">
+    <Compile Include="GUI\Other\ThietLapDoiThi.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ThietLapDoiThi.Designer.cs">
+    <Compile Include="GUI\Other\ThietLapDoiThi.Designer.cs">
       <DependentUpon>ThietLapDoiThi.cs</DependentUpon>
     </Compile>
-    <Compile Include="ThietLapGame.cs">
+    <Compile Include="GUI\Other\ThietLapGame.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ThietLapGame.Designer.cs">
+    <Compile Include="GUI\Other\ThietLapGame.Designer.cs">
       <DependentUpon>ThietLapGame.cs</DependentUpon>
     </Compile>
-    <Compile Include="ThietLapGiaiDoan.cs">
+    <Compile Include="GUI\Other\ThietLapGiaiDoan.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ThietLapGiaiDoan.Designer.cs">
+    <Compile Include="GUI\Other\ThietLapGiaiDoan.Designer.cs">
       <DependentUpon>ThietLapGiaiDoan.cs</DependentUpon>
     </Compile>
-    <Compile Include="ThietLapThiDau.cs">
+    <Compile Include="GUI\Other\ThietLapThiDau.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ThietLapThiDau.Designer.cs">
+    <Compile Include="GUI\Other\ThietLapThiDau.Designer.cs">
       <DependentUpon>ThietLapThiDau.cs</DependentUpon>
     </Compile>
-    <Compile Include="TraLoiNgan.cs">
+    <Compile Include="GUI\Catalogue\TraLoiNgan.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="TraLoiNgan.Designer.cs">
+    <Compile Include="GUI\Catalogue\TraLoiNgan.Designer.cs">
       <DependentUpon>TraLoiNgan.cs</DependentUpon>
     </Compile>
-    <Compile Include="TuyChonMot.cs">
+    <Compile Include="GUI\Catalogue\TuyChonMot.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="TuyChonMot.Designer.cs">
+    <Compile Include="GUI\Catalogue\TuyChonMot.Designer.cs">
       <DependentUpon>TuyChonMot.cs</DependentUpon>
     </Compile>
-    <Compile Include="TuyChonNhieu.cs">
+    <Compile Include="GUI\Catalogue\TuyChonNhieu.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="TuyChonNhieu.Designer.cs">
+    <Compile Include="GUI\Catalogue\TuyChonNhieu.Designer.cs">
       <DependentUpon>TuyChonNhieu.cs</DependentUpon>
     </Compile>
-    <Compile Include="VongThi.cs">
+    <Compile Include="GUI\Other\VongThi.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="VongThi.Designer.cs">
+    <Compile Include="GUI\Other\VongThi.Designer.cs">
       <DependentUpon>VongThi.cs</DependentUpon>
     </Compile>
     <Compile Include="winForm.cs" />
-    <Compile Include="XemDanhSachCauHoiThuocChuDe.cs">
+    <Compile Include="GUI\Question\XemDanhSachCauHoiThuocChuDe.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="XemDanhSachCauHoiThuocChuDe.Designer.cs">
+    <Compile Include="GUI\Question\XemDanhSachCauHoiThuocChuDe.Designer.cs">
       <DependentUpon>XemDanhSachCauHoiThuocChuDe.cs</DependentUpon>
     </Compile>
-    <Compile Include="XoaChuDe.cs">
+    <Compile Include="GUI\Catalogue\XoaChuDe.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="XoaChuDe.Designer.cs">
+    <Compile Include="GUI\Catalogue\XoaChuDe.Designer.cs">
       <DependentUpon>XoaChuDe.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="BatDau.resx">
+    <EmbeddedResource Include="GUI\Main\BatDau.resx">
       <DependentUpon>BatDau.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CacCuocThi.resx">
+    <EmbeddedResource Include="GUI\Other\CacCuocThi.resx">
       <DependentUpon>CacCuocThi.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CauHoi-Import.resx">
+    <EmbeddedResource Include="GUI\Question\CauHoi-Import.resx">
       <DependentUpon>CauHoi-Import.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CauHoi-TaoCauHoi.resx">
+    <EmbeddedResource Include="GUI\Question\CauHoi-TaoCauHoi.resx">
       <DependentUpon>CauHoi-TaoCauHoi.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ChuDe-TaoChuDe.resx">
+    <EmbeddedResource Include="GUI\Catalogue\ChuDe-TaoChuDe.resx">
       <DependentUpon>ChuDe-TaoChuDe.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DapAnTuyChonMot.resx">
+    <EmbeddedResource Include="GUI\Catalogue\DapAnTuyChonMot.resx">
       <DependentUpon>DapAnTuyChonMot.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DapAnTuyChonNhieu.resx">
+    <EmbeddedResource Include="GUI\Catalogue\DapAnTuyChonNhieu.resx">
       <DependentUpon>DapAnTuyChonNhieu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DoiChoi.resx">
+    <EmbeddedResource Include="GUI\Other\DoiChoi.resx">
       <DependentUpon>DoiChoi.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GuiMenu.resx">
+    <EmbeddedResource Include="GUI\Main\GuiMenu.resx">
       <DependentUpon>GuiMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="huongDan.resx">
+    <EmbeddedResource Include="GUI\Main\huongDan.resx">
       <DependentUpon>huongDan.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Import.resx">
+    <EmbeddedResource Include="GUI\Catalogue\Import.resx">
       <DependentUpon>Import.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
+    <EmbeddedResource Include="GUI\Main\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="menu.resx">
+    <EmbeddedResource Include="GUI\Main\menu.resx">
       <DependentUpon>menu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NhapCauHoiTuNganHangCauHoi.resx">
+    <EmbeddedResource Include="GUI\Catalogue\NhapCauHoiTuNganHangCauHoi.resx">
       <DependentUpon>NhapCauHoiTuNganHangCauHoi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -301,55 +305,55 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="QuanLyDuLieu.resx">
+    <EmbeddedResource Include="GUI\Catalogue\QuanLyDuLieu.resx">
       <DependentUpon>QuanLyDuLieu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="QuanLyTaiKhoan.resx">
+    <EmbeddedResource Include="GUI\Other\QuanLyTaiKhoan.resx">
       <DependentUpon>QuanLyTaiKhoan.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="setting.resx">
+    <EmbeddedResource Include="GUI\Main\setting.resx">
       <DependentUpon>setting.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TaoCauHoi.resx">
+    <EmbeddedResource Include="GUI\Catalogue\TaoCauHoi.resx">
       <DependentUpon>TaoCauHoi.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TaoCauHoiChuDe.resx">
+    <EmbeddedResource Include="GUI\Catalogue\TaoCauHoiChuDe.resx">
       <DependentUpon>TaoCauHoiChuDe.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ThemCuocThi.resx">
+    <EmbeddedResource Include="GUI\Other\ThemCuocThi.resx">
       <DependentUpon>ThemCuocThi.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ThietLapChung.resx">
+    <EmbeddedResource Include="GUI\Other\ThietLapChung.resx">
       <DependentUpon>ThietLapChung.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ThietLapDoiThi.resx">
+    <EmbeddedResource Include="GUI\Other\ThietLapDoiThi.resx">
       <DependentUpon>ThietLapDoiThi.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ThietLapGame.resx">
+    <EmbeddedResource Include="GUI\Other\ThietLapGame.resx">
       <DependentUpon>ThietLapGame.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ThietLapGiaiDoan.resx">
+    <EmbeddedResource Include="GUI\Other\ThietLapGiaiDoan.resx">
       <DependentUpon>ThietLapGiaiDoan.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ThietLapThiDau.resx">
+    <EmbeddedResource Include="GUI\Other\ThietLapThiDau.resx">
       <DependentUpon>ThietLapThiDau.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TraLoiNgan.resx">
+    <EmbeddedResource Include="GUI\Catalogue\TraLoiNgan.resx">
       <DependentUpon>TraLoiNgan.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TuyChonMot.resx">
+    <EmbeddedResource Include="GUI\Catalogue\TuyChonMot.resx">
       <DependentUpon>TuyChonMot.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TuyChonNhieu.resx">
+    <EmbeddedResource Include="GUI\Catalogue\TuyChonNhieu.resx">
       <DependentUpon>TuyChonNhieu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="VongThi.resx">
+    <EmbeddedResource Include="GUI\Other\VongThi.resx">
       <DependentUpon>VongThi.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="XemDanhSachCauHoiThuocChuDe.resx">
+    <EmbeddedResource Include="GUI\Question\XemDanhSachCauHoiThuocChuDe.resx">
       <DependentUpon>XemDanhSachCauHoiThuocChuDe.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="XoaChuDe.resx">
+    <EmbeddedResource Include="GUI\Catalogue\XoaChuDe.resx">
       <DependentUpon>XoaChuDe.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
@@ -466,6 +470,7 @@
   <ItemGroup>
     <None Include="img\KhungTao.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
