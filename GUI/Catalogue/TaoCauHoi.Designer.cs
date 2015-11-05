@@ -42,7 +42,7 @@
             // 
             this.grpChonDangCauHoi.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.grpChonDangCauHoi.BackColor = System.Drawing.Color.Transparent;
+            this.grpChonDangCauHoi.BackColor = System.Drawing.SystemColors.Desktop;
             this.grpChonDangCauHoi.Controls.Add(this.rdoNgan);
             this.grpChonDangCauHoi.Controls.Add(this.rdoNhieu);
             this.grpChonDangCauHoi.Controls.Add(this.rdoMot);
@@ -111,6 +111,7 @@
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.BackColor = System.Drawing.SystemColors.Desktop;
             this.panel1.Location = new System.Drawing.Point(7, 20);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(755, 492);
@@ -120,9 +121,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackColor = System.Drawing.SystemColors.Desktop;
             this.Controls.Add(this.grpTaoCauHoi);
             this.Controls.Add(this.grpChonDangCauHoi);
+            this.DoubleBuffered = true;
             this.Name = "TaoCauHoi";
             this.Size = new System.Drawing.Size(792, 583);
             this.Load += new System.EventHandler(this.TaoCauHoi_Load);

@@ -61,7 +61,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.BackColor = System.Drawing.SystemColors.Desktop;
             this.panel1.Location = new System.Drawing.Point(26, 117);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(591, 389);

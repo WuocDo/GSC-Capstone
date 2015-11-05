@@ -240,8 +240,12 @@
     <Compile Include="GUI\Other\VongThi.Designer.cs">
       <DependentUpon>VongThi.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="winForm.cs" />
     <Compile Include="GUI\Question\XemDanhSachCauHoiThuocChuDe.cs">
+=======
+    <Compile Include="XemDanhSachCauHoiThuocChuDe.cs">
+>>>>>>> eb40b7c27b1da6b0e1f2a89f26392b02e908e341
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GUI\Question\XemDanhSachCauHoiThuocChuDe.Designer.cs">

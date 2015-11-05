@@ -31,5 +31,10 @@ namespace GameShowControls
         {
             this.Dock = DockStyle.Fill;
         }
+
+        private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
     }
 }

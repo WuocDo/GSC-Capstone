@@ -21,7 +21,7 @@ namespace GameShowControls
         TuyChonMot tcm = new TuyChonMot();
         private void CauHoi_TaoCauHoi_Load(object sender, EventArgs e)
         {
-            this.Controls.Add(tch);
+            panel1.Controls.Add(tch);
         }
     }
 }
