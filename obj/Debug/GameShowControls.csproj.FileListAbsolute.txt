@@ -37,6 +37,7 @@ D:\GameShowControls\obj\Debug\GameShowControls.DoiChoi.resources
 D:\GameShowControls\obj\Debug\GameShowControls.VongThi.resources
 D:\GameShowControls\obj\Debug\GameShowControls.QuanLyTaiKhoan.resources
 D:\GameShowControls\obj\Debug\GameShowControls.CacCuocThi.resources
+<<<<<<< HEAD
 D:\GSC-Capstone\bin\Debug\GameShowControls.exe.config
 D:\GSC-Capstone\obj\Debug\GameShowControls.exe
 D:\GSC-Capstone\obj\Debug\GameShowControls.pdb
@@ -76,3 +77,8 @@ D:\GSC-Capstone\obj\Debug\GameShowControls.VongThi.resources
 D:\GSC-Capstone\obj\Debug\GameShowControls.XemDanhSachCauHoiThuocChuDe.resources
 D:\GSC-Capstone\obj\Debug\GameShowControls.XoaChuDe.resources
 D:\GSC-Capstone\obj\Debug\GameShowControls.csproj.GenerateResource.Cache
+=======
+D:\Capstone\Git\GSC-Capstone\bin\Debug\GameShowControls.exe.config
+D:\Capstone\Git\GSC-Capstone\obj\Debug\GameShowControls.exe
+D:\Capstone\Git\GSC-Capstone\obj\Debug\GameShowControls.pdb
+>>>>>>> af35ed9c412c0b4367fe2fbe2c8dd85e06ca7333
