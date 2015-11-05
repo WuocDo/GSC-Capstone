@@ -126,6 +126,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlKhung.BackColor = System.Drawing.SystemColors.Control;
+            this.pnlKhung.BackgroundImage = global::GameShowControls.Properties.Resources.KhungPanner2;
             this.pnlKhung.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pnlKhung.Location = new System.Drawing.Point(292, 19);
             this.pnlKhung.Name = "pnlKhung";

@@ -47,8 +47,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -64,9 +62,9 @@
             this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.flpThemDapAn);
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.groupBox1.Location = new System.Drawing.Point(10, 24);
+            this.groupBox1.Location = new System.Drawing.Point(10, 9);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(726, 255);
+            this.groupBox1.Size = new System.Drawing.Size(726, 262);
             this.groupBox1.TabIndex = 30;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Nội dung câu hỏi";
@@ -74,18 +72,19 @@
             // btnThemDapAn
             // 
             this.btnThemDapAn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnThemDapAn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnThemDapAn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnThemDapAn.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThemDapAn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnThemDapAn.ImageIndex = 2;
             this.btnThemDapAn.ImageList = this.imlButton;
-            this.btnThemDapAn.Location = new System.Drawing.Point(320, 16);
+            this.btnThemDapAn.Location = new System.Drawing.Point(319, 20);
             this.btnThemDapAn.Name = "btnThemDapAn";
             this.btnThemDapAn.Size = new System.Drawing.Size(141, 34);
             this.btnThemDapAn.TabIndex = 22;
             this.btnThemDapAn.Text = "Thêm đáp án";
             this.btnThemDapAn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnThemDapAn.UseVisualStyleBackColor = true;
+            this.btnThemDapAn.UseVisualStyleBackColor = false;
             this.btnThemDapAn.Click += new System.EventHandler(this.button1_Click);
             // 
             // imlButton
@@ -125,7 +124,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.flpThemDapAn.AutoScroll = true;
             this.flpThemDapAn.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.flpThemDapAn.Location = new System.Drawing.Point(320, 60);
+            this.flpThemDapAn.Location = new System.Drawing.Point(319, 60);
             this.flpThemDapAn.Name = "flpThemDapAn";
             this.flpThemDapAn.Size = new System.Drawing.Size(400, 189);
             this.flpThemDapAn.TabIndex = 20;
@@ -138,7 +137,7 @@
             this.btnCancel.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnCancel.ImageIndex = 1;
             this.btnCancel.ImageList = this.imlButton;
-            this.btnCancel.Location = new System.Drawing.Point(646, 431);
+            this.btnCancel.Location = new System.Drawing.Point(643, 416);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(90, 40);
             this.btnCancel.TabIndex = 29;
@@ -154,7 +153,7 @@
             this.btnSave.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnSave.ImageIndex = 0;
             this.btnSave.ImageList = this.imlButton;
-            this.btnSave.Location = new System.Drawing.Point(550, 431);
+            this.btnSave.Location = new System.Drawing.Point(547, 416);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(90, 40);
             this.btnSave.TabIndex = 28;
@@ -176,9 +175,9 @@
             this.groupBox2.Controls.Add(this.textBox2);
             this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.groupBox2.Location = new System.Drawing.Point(10, 285);
+            this.groupBox2.Location = new System.Drawing.Point(10, 278);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(726, 134);
+            this.groupBox2.Size = new System.Drawing.Size(726, 104);
             this.groupBox2.TabIndex = 27;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Thiết đặt câu hỏi";
@@ -188,7 +187,7 @@
             this.maskedTextBox1.BackColor = System.Drawing.SystemColors.Control;
             this.maskedTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.maskedTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox1.Location = new System.Drawing.Point(442, 25);
+            this.maskedTextBox1.Location = new System.Drawing.Point(424, 58);
             this.maskedTextBox1.Mask = "00/00/0000";
             this.maskedTextBox1.Name = "maskedTextBox1";
             this.maskedTextBox1.Size = new System.Drawing.Size(100, 26);
@@ -200,7 +199,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label8.Location = new System.Drawing.Point(364, 27);
+            this.label8.Location = new System.Drawing.Point(332, 60);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(72, 19);
             this.label8.TabIndex = 22;
@@ -208,7 +207,7 @@
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(112, 99);
+            this.textBox4.Location = new System.Drawing.Point(424, 29);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 20);
             this.textBox4.TabIndex = 21;
@@ -254,33 +253,11 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label7.Location = new System.Drawing.Point(17, 97);
+            this.label7.Location = new System.Drawing.Point(329, 27);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(76, 19);
             this.label7.TabIndex = 18;
             this.label7.Text = "Thời gian";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(103, 1);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(213, 19);
-            this.label2.TabIndex = 26;
-            this.label2.Text = "chủ đề đã dc chọn bên ngoài";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(12, 1);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 19);
-            this.label1.TabIndex = 25;
-            this.label1.Text = "Chủ đề:";
             // 
             // button1
             // 
@@ -290,7 +267,7 @@
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.button1.ImageIndex = 3;
             this.button1.ImageList = this.imlButton;
-            this.button1.Location = new System.Drawing.Point(373, 431);
+            this.button1.Location = new System.Drawing.Point(370, 416);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(171, 40);
             this.button1.TabIndex = 31;
@@ -303,13 +280,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Desktop;
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.Name = "TuyChonNhieu";
             this.Size = new System.Drawing.Size(747, 473);
             this.Load += new System.EventHandler(this.TuyChonNhieu_Load);
@@ -318,7 +294,6 @@
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -338,8 +313,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ImageList imlButton;
         public System.Windows.Forms.Button btnThemDapAn;
         private System.Windows.Forms.FlowLayoutPanel flpThemDapAn;

@@ -236,7 +236,6 @@
     <Compile Include="VongThi.Designer.cs">
       <DependentUpon>VongThi.cs</DependentUpon>
     </Compile>
-    <Compile Include="winForm.cs" />
     <Compile Include="XemDanhSachCauHoiThuocChuDe.cs">
       <SubType>Form</SubType>
     </Compile>
